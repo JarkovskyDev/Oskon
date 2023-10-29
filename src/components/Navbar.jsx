@@ -19,18 +19,23 @@ const Navbar = () => {
 
         <ul className='hidden md:flex'>
             <li>
-                <Link to='home' smooth={true} duration={500}>
+                <Link to='hero' smooth={true} duration={500}>
                     Úvod
                 </Link>
             </li>
             <li>
-                <Link to='for_home' smooth={true} duration={500}>
+                <Link to='home' smooth={true} duration={500}>
                     Domácnost
                 </Link>
             </li> 
             <li>
-                <Link to='for_industry' smooth={true} duration={500}>
+                <Link to='industry' smooth={true} duration={500}>
                     Průmysl
+                </Link>
+            </li>
+            <li>
+                <Link to='enginnering' smooth={true} duration={500}>
+                    Strojírenství
                 </Link>
             </li>
             <li>
@@ -38,6 +43,7 @@ const Navbar = () => {
                     Svařování
                 </Link>
             </li>
+
             <li>
                 <Link to='contacts' smooth={true} duration={500}>
                     Kontakt
