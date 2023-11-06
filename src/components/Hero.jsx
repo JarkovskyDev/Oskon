@@ -18,7 +18,7 @@ const Hero = () => {
           </div>
           <div className='flex flex-col h-full justify-center'>
             <h3 className='text-5xl md:text-6xl font-bold'>SPOLEČNOST</h3>
-            <p className='text-xl text-justify pb-6'>Společnost Oskon s.r.o. nabízí bohaté zkušenosti v oblasti kovovýroby, strojního obrábění kovů a svařování. Zabýváme se výrobou specializovaných strojích přípravků. Ve všech směrech naší produkce dokážeme nabídnout řešení na míru. Zajišťujeme konzultaci, zpracování technické dokumentnace a výrobu. Napište nám.</p>
+            <p className='text-xl text-justify pb-6'>Společnost Oskon s.r.o. nabízí bohaté zkušenosti v oblasti kovovýroby, strojního obrábění kovů a svařování. Zabýváme se výrobou specializovaných strojních přípravků. Ve všech směrech naší produkce dokážeme nabídnout řešení na míru. Zajišťujeme konzultaci, zpracování technické dokumentnace a výrobu. Napište nám.</p>
           </div>
         </div>
     </div>
