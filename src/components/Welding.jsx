@@ -1,9 +1,9 @@
 import React from 'react'
-import image1 from "../assets/Hero_img_1.webp"
-import image2 from "../assets/Hero_img_2.webp"
-import image3 from "../assets/Hero_img_3.webp"
-import image4 from "../assets/Hero_img_4.webp"
-import image5 from "../assets/Hero_img_5.webp"
+import image1 from "../assets/Wel_img_1.webp"
+import image2 from "../assets/Wel_img_2.webp"
+import image3 from "../assets/Wel_img_3.webp"
+import image4 from "../assets/Wel_img_4.webp"
+import image5 from "../assets/Wel_img_5.webp"
 
 const Welding = () => {
   return (

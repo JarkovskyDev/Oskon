@@ -20,33 +20,32 @@ const Navbar = () => {
         <ul className='hidden text-xl md:flex'>
             <li>
                 <Link to='hero' smooth={true} duration={500}>
-                    Úvod
+                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#ea5b0c]'>Úvod</p>
                 </Link>
             </li>
             <li>
                 <Link to='home' smooth={true} duration={500}>
-                    Domácnost
+                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#ea5b0c]'>Domácnost</p>
                 </Link>
             </li> 
             <li>
                 <Link to='industry' smooth={true} duration={500}>
-                    Průmysl
+                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#ea5b0c]'>Průmysl</p>
                 </Link>
             </li>
             <li>
                 <Link to='enginnering' smooth={true} duration={500}>
-                    Strojírenství
+                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#ea5b0c]'>Strojírenství</p>
                 </Link>
             </li>
             <li>
                 <Link to='welding' smooth={true} duration={500}>
-                    Svařování
+                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#ea5b0c]'>Svařování</p>
                 </Link>
             </li>
-
             <li>
                 <Link to='contacts' smooth={true} duration={500}>
-                    Kontakt
+                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#ea5b0c]'>Kontakt</p>
                 </Link>
             </li>
         </ul>
