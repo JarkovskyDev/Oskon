@@ -17,8 +17,10 @@ const Industry = () => {
           <img className='row-span-2 object-cover w-full h-full p-2' src={image5} alt="/" />
         </div>
         <div className='flex flex-col h-full justify-center'>
-          <h3 className='text-5xl md:text-6xl font-bold'>PRŮMYSL</h3>
-          <p className='text-xl text-justify pb-6'>Oskon s.r.o je specializovanou firmou, která se zaměřuje na výrobu kovových produktů pro průmyslové a administrativní budovy.  Nabízíme kvalitní konstrukce, zábradlí, schodiště a další kovové výrobky, které nejen posilují bezpečnost, ale také přidávají estetickou hodnotu do vašich prostorů. Společnost Oskon s.r.o je vaším partnerem pro výrobky, které zdůrazňují profesionální a moderní vzhled vašich průmyslových a administrativních budov.</p>
+          <h3 className='text-5xl max-md:text-3xl md:text-6xl font-bold'>
+            <span className='border-t-2 border-[#ea5b0c]'>P</span>RŮMYS <span className='border-b-2 border-[#ea5b0c]'>L</span>
+          </h3>
+          <p className='text-xl text-justify pb-6 mt-2'>Oskon s.r.o je specializovanou firmou, která se zaměřuje na výrobu kovových produktů pro průmyslové a administrativní budovy.  Nabízíme kvalitní konstrukce, zábradlí, schodiště a další kovové výrobky, které nejen posilují bezpečnost, ale také přidávají estetickou hodnotu do vašich prostorů. Společnost Oskon s.r.o je vaším partnerem pro výrobky, které zdůrazňují profesionální a moderní vzhled vašich průmyslových a administrativních budov.</p>
         </div>
       </div>
     </div>

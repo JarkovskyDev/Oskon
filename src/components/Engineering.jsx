@@ -10,8 +10,10 @@ const Engineering = () => {
     <div name='enginnering' className='w-full h-screen'>
       <div className='max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4'>
         <div className='flex flex-col h-full justify-center'>
-          <h3 className='text-5xl md:text-6xl font-bold'>STROJÍRENSTVÍ</h3>
-          <p className='text-xl text-justify pb-6'>Oskon s.r.o je předním jménem v oblasti strojírenství a výroby jednoúčelových strojních přípravků. Naše společnost je specializovaná na precizní kovovýrobu a nabízí inovativní řešení pro strojírenské a průmyslové potřeby. Naši zkušení inženýři a technici pracují na vývoji a výrobě špičkových jednoúčelových přípravků, které maximalizují efektivitu a přesnost vaší výroby. S důrazem na kvalitu, spolehlivost a technickou dokonalost jsme vaším partnerem pro kovové výrobky, které zlepšují výkonnost a konkurenceschopnost vaší strojírenské a výrobní činnosti.</p>
+          <h3 className='text-5xl max-md:text-3xl md:text-6xl font-bold'>
+            <span className='border-t-2 border-[#ea5b0c]'>S</span>TROJÍRENSTV<span className='border-b-2 border-[#ea5b0c]'>Í</span>
+          </h3>
+          <p className='text-xl text-justify pb-6 mt-2'>Oskon s.r.o je předním jménem v oblasti strojírenství a výroby jednoúčelových strojních přípravků. Naše společnost je specializovaná na precizní kovovýrobu a nabízí inovativní řešení pro strojírenské a průmyslové potřeby. Naši zkušení inženýři a technici pracují na vývoji a výrobě špičkových jednoúčelových přípravků, které maximalizují efektivitu a přesnost vaší výroby. S důrazem na kvalitu, spolehlivost a technickou dokonalost jsme vaším partnerem pro kovové výrobky, které zlepšují výkonnost a konkurenceschopnost vaší strojírenské a výrobní činnosti.</p>
         </div>
         <div className='grid grid-cols-2 grid-rows-6 h-[80vh]'>
           <img className='row-span-3 object-cover w-full h-full p-2' src={image1} alt="/" />

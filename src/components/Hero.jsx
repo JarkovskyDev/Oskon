@@ -17,8 +17,10 @@ const Hero = () => {
             <img className='row-span-2 object-cover w-full h-full p-2' src={image5} alt="/" />
           </div>
           <div className='flex flex-col h-full justify-center'>
-            <h3 className='text-5xl md:text-6xl font-bold'>SPOLEČNOST</h3>
-            <p className='text-xl text-justify pb-6'>Společnost Oskon s.r.o. nabízí bohaté zkušenosti v oblasti kovovýroby, strojního obrábění kovů a svařování. Zabýváme se výrobou specializovaných strojních přípravků. Ve všech směrech naší produkce dokážeme nabídnout řešení na míru. Zajišťujeme konzultaci, zpracování technické dokumentnace a výrobu. Napište nám.</p>
+            <h3 className='text-5xl max-md:text-3xl md:text-6xl font-bold'>
+              <span className='border-t-2 border-[#ea5b0c]'>S</span>POLEČNOS<span className='border-b-2 border-[#ea5b0c]'>T</span>
+            </h3>
+            <p className='text-xl text-justify pb-6 mt-2'>Společnost Oskon s.r.o. nabízí bohaté zkušenosti v oblasti kovovýroby, strojního obrábění kovů a svařování. Zabýváme se výrobou specializovaných strojních přípravků. Ve všech směrech naší produkce dokážeme nabídnout řešení na míru. Zajišťujeme konzultaci, zpracování technické dokumentnace a výrobu. Napište nám.</p>
           </div>
         </div>
     </div>
