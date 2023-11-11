@@ -8,7 +8,7 @@ import image5 from "../assets/Eng_img_5.webp"
 const Engineering = () => {
   return (
     <div name='enginnering' className='w-full min-h-screen'>
-      <div className='max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4'>
+      <div className='max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4 sm:pt-0 sm:pb-0'>
         <div name='enginnering-res'  className='flex flex-col h-full justify-center'>
           <h3 className='text-5xl font-bold'>
             <span className='border-t-2 border-[#ea5b0c]'>S</span>TROJÍRENSTV<span className='border-b-2 border-[#ea5b0c]'>Í</span>

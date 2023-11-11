@@ -4,7 +4,7 @@ import { AiOutlineCopyrightCircle } from 'react-icons/ai'
 const Contacts = () => {
   return (
     <div name='contacts' className='w-full min-h-screen flex flex-col justify-between items-center'>
-      <div className='max-w-[1400px] m-auto border-solid border border-gray-700 shadow-lg p-4 px-4 sm:mx-4'>
+      <div className='max-w-[1400px] m-auto border-solid border border-gray-700 shadow-lg p-4 px-4 sm:pt-0 sm:pb-0'>
         <h1>OSKON s.r.o.</h1>
         <h1>IČO: 05391504</h1>
         <h1>Sídlo: Heřmanova 1415/1, 170 00 Praha - Holešovice</h1>

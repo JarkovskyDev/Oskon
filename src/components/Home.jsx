@@ -8,7 +8,7 @@ import image5 from "../assets/Home_img_5.webp"
 const Home = () => {
   return (
     <div name='home' className='w-full min-h-screen'>
-      <div name='home-res' className='max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4'>
+      <div name='home-res' className='max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4 sm:pt-0 sm:pb-0'>
         <div className='flex flex-col h-full justify-center'>
           <h3 className='text-5xl font-bold'>
             <span className='border-t-2 border-[#ea5b0c]'>D</span>OMÁCNOST<span className='border-b-2 border-[#ea5b0c]'>I</span>
