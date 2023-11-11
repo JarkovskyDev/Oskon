@@ -10,7 +10,7 @@ const Engineering = () => {
     <div name='enginnering' className='w-full min-h-screen'>
       <div className='max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4 sm:pt-0 sm:pb-0'>
         <div name='enginnering-res'  className='flex flex-col h-full justify-center'>
-          <h3 className='text-5xl font-bold'>
+          <h3 className='text-5xl font-bold sm:mt-2'>
             <span className='border-t-2 border-[#ea5b0c]'>S</span>TROJÍRENSTV<span className='border-b-2 border-[#ea5b0c]'>Í</span>
           </h3>
           <p className='text-xl text-justify pb-6 mt-2'>Oskon s.r.o je předním jménem v oblasti strojírenství a výroby jednoúčelových strojních přípravků. Naše společnost je specializovaná na precizní kovovýrobu a nabízí inovativní řešení pro strojírenské a průmyslové potřeby. Naši zkušení inženýři a technici pracují na vývoji a výrobě špičkových jednoúčelových přípravků, které maximalizují efektivitu a přesnost vaší výroby. S důrazem na kvalitu, spolehlivost a technickou dokonalost jsme vaším partnerem pro kovové výrobky, které zlepšují výkonnost a konkurenceschopnost vaší strojírenské a výrobní činnosti.</p>

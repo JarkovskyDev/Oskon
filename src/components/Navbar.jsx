@@ -24,22 +24,22 @@ const Navbar = () => {
                 </Link>
             </li>
             <li>
-                <Link to='home' smooth={true} duration={500}>
+                <Link to='home' smooth={true} duration={500} offset={-120}>
                     <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#ea5b0c]'>Domácnost</p>
                 </Link>
             </li> 
             <li>
-                <Link to='industry' smooth={true} duration={500}>
+                <Link to='industry' smooth={true} duration={500} offset={-120}>
                     <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#ea5b0c]'>Průmysl</p>
                 </Link>
             </li>
             <li>
-                <Link to='enginnering' smooth={true} duration={500}>
+                <Link to='enginnering' smooth={true} duration={500} offset={-120}>
                     <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#ea5b0c]'>Strojírenství</p>
                 </Link>
             </li>
             <li>
-                <Link to='welding' smooth={true} duration={500}>
+                <Link to='welding' smooth={true} duration={500} offset={-120}>
                     <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#ea5b0c]'>Svařování</p>
                 </Link>
             </li>

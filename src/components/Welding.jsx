@@ -9,7 +9,7 @@ const Welding = () => {
   return (
     <div name='welding' className='w-full min-h-screen'>
        <div className='max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4 sm:pt-0 sm:pb-0'>
-          <div className='grid grid-cols-2 grid-rows-6 h-[80vh]'>
+          <div className='grid grid-cols-2 grid-rows-6 h-[80vh] sm:order-3 lg:order-first'>
             <img className='row-span-3 object-cover w-full h-full p-2' src={image1} alt="/" />
             <img className='row-span-2 object-cover w-full h-full p-2' src={image2} alt="/" />
             <img className='row-span-2 object-cover w-full h-full p-2' src={image3} alt="/" />
@@ -17,10 +17,10 @@ const Welding = () => {
             <img className='row-span-2 object-cover w-full h-full p-2' src={image5} alt="/" />
           </div>
           <div className='flex flex-col h-full justify-center'>
-            <h3 name='welding-res' className='text-5xl font-bold'>
+            <h3 name='welding-res' className='text-5xl font-bold sm:mt-2 sm:order-1'>
               <span className='border-t-2 border-[#ea5b0c]'>S</span>VAŘOVÁN<span className='border-b-2 border-[#ea5b0c]'>Í</span>
             </h3>
-            <p className='text-xl text-justify pb-6 mt-4'>Oskon s.r.o je odborníkem na oblast svařování a kovových výrobků spojených s touto technikou. Naše firma se zaměřuje na výrobu vysokojakostních svařovaných komponent pro různé odvětví průmyslu.  Také se zaměřujeme na svařování  konstrukcí ve stavebnictví, a to svařování  ocelových nosníků, nosných sloupků, rámových konstrukcí a dalších svařovaných prvků, které zajišťují stabilitu a bezpečnost budov. S důrazem na preciznost a bezpečnost jsme vaším spolehlivým partnerem pro kovové výrobky, které vám pomáhají dosáhnout excelentních svařovacích výsledků.</p>
+            <p className='text-xl text-justify pb-6 mt-4 sm:order-2 sm:pb-0'>Oskon s.r.o je odborníkem na oblast svařování a kovových výrobků spojených s touto technikou. Naše firma se zaměřuje na výrobu vysokojakostních svařovaných komponent pro různé odvětví průmyslu.  Také se zaměřujeme na svařování  konstrukcí ve stavebnictví, a to svařování  ocelových nosníků, nosných sloupků, rámových konstrukcí a dalších svařovaných prvků, které zajišťují stabilitu a bezpečnost budov. S důrazem na preciznost a bezpečnost jsme vaším spolehlivým partnerem pro kovové výrobky, které vám pomáhají dosáhnout excelentních svařovacích výsledků.</p>
           </div>
         </div>     
     </div>
