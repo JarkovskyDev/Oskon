@@ -56,27 +56,27 @@ const Navbar = () => {
 
         <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#ffffff] flex flex-col justify-center items-center"}>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to='hero-res' smooth={true} duration={500}>
+                <Link onClick={handleClick} to='hero-res' smooth={true} duration={500} offset={-100}>
                     Úvod
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to='home-res' smooth={true} duration={500}>
+                <Link onClick={handleClick} to='home-res' smooth={true} duration={500} offset={-85}>
                     Domácnosti
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to='industry-res' smooth={true} duration={500}>
+                <Link onClick={handleClick} to='industry-res' smooth={true} duration={500} offset={-85}>
                     Průmysl
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to='enginnering-res' smooth={true} duration={500}>
+                <Link onClick={handleClick} to='enginnering-res' smooth={true} duration={500} offset={-80}>
                     Strojírenství
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to='welding-res' smooth={true} duration={500}>
+                <Link onClick={handleClick} to='welding-res' smooth={true} duration={500} offset={-80}>
                     Svařování
                 </Link>
             </li>
