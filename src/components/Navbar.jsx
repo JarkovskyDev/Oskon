@@ -1,7 +1,5 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from "react-icons/fa"
-import {HiOutlineMail} from "react-icons/hi"
-import {BsFillPersonLinesFill} from "react-icons/bs"
+import {FaBars, FaTimes} from "react-icons/fa"
 import Logo from "../assets/logo.png"
 import {Link} from 'react-scroll'
 
@@ -61,7 +59,7 @@ const Navbar = () => {
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to='home-res' smooth={true} duration={500} offset={-85}>
+                <Link onClick={handleClick} to='home-res' smooth={true} duration={500} offset={-80}>
                     Domácnosti
                 </Link>
             </li>
@@ -71,7 +69,7 @@ const Navbar = () => {
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to='enginnering-res' smooth={true} duration={500} offset={-80}>
+                <Link onClick={handleClick} to='enginnering-res' smooth={true} duration={500} offset={-75}>
                     Strojírenství
                 </Link>
             </li>

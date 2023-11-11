@@ -8,15 +8,15 @@ import image5 from "../assets/Home_img_5.webp"
 const Home = () => {
   return (
     <div name='home' className='w-full min-h-screen'>
-      <div name='home-res' className='max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4 sm:pt-0 sm:pb-0'>
+      <div name='home-res' className='max-w-[1400px] m-auto px-4 grid lg:grid-cols-2 gap-4 sm:pt-0 sm:pb-0'>
         <div className='flex flex-col h-full justify-center'>
-          <h3 className='text-5xl font-bold sm:order-1'>
+          <h3 className='text-5xl font-bold max-sm:order-1 max-sm:mt-2 sm:order-1'>
             <span className='border-t-2 border-[#ea5b0c]'>D</span>OMÁCNOST<span className='border-b-2 border-[#ea5b0c]'>I</span>
           </h3>
-          <p className='text-xl text-justify pb-6 mt-2 sm:order-2 sm:pb-1'>Oskon s.r.o je vaším spolehlivým partnerem pro kvalitní kovové výrobky pro domácnosti. Naše široká nabídka zahrnuje elegantní zábradlí, designové ploty, praktické terasy a exkluzivní pergoly, které vám pomohou vytvořit dokonalé prostředí ve vašem domě. S důrazem na kvalitu a spolehlivost jsme vaším partnerem pro kovové výrobky, které zdůrazní krásu vašeho domova.
+          <p className='text-xl text-justify pb-6 mt-2 max-sm:order-2 sm:order-2 sm:pb-1'>Oskon s.r.o je vaším spolehlivým partnerem pro kvalitní kovové výrobky pro domácnosti. Naše široká nabídka zahrnuje elegantní zábradlí, designové ploty, praktické terasy a exkluzivní pergoly, které vám pomohou vytvořit dokonalé prostředí ve vašem domě. S důrazem na kvalitu a spolehlivost jsme vaším partnerem pro kovové výrobky, které zdůrazní krásu vašeho domova.
           </p>
         </div>
-        <div className='grid grid-cols-2 grid-rows-6 h-[80vh] sm:order-3'>
+        <div className='grid grid-cols-2 grid-rows-6 h-[80vh] max-sm:order-3 sm:order-3'>
           <img className='row-span-3 object-cover w-full h-full p-2' src={image1} alt="/" />
           <img className='row-span-2 object-cover w-full h-full p-2' src={image2} alt="/" />
           <img className='row-span-2 object-cover w-full h-full p-2' src={image3} alt="/" />
