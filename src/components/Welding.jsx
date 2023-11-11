@@ -17,7 +17,7 @@ const Welding = () => {
             <img className='row-span-2 object-cover w-full h-full p-2' src={image5} alt="/" />
           </div>
           <div className='flex flex-col h-full justify-center'>
-            <h3 className='text-5xl max-md:text-3xl only:md:text-6xl font-bold'>
+            <h3 className='text-5xl font-bold'>
               <span className='border-t-2 border-[#ea5b0c]'>S</span>VAŘOVÁN<span className='border-b-2 border-[#ea5b0c]'>Í</span>
             </h3>
             <p className='text-xl text-justify pb-6 mt-4'>Oskon s.r.o je odborníkem na oblast svařování a kovových výrobků spojených s touto technikou. Naše firma se zaměřuje na výrobu vysokojakostních svařovaných komponent pro různé odvětví průmyslu.  Také se zaměřujeme na svařování  konstrukcí ve stavebnictví, a to svařování  ocelových nosníků, nosných sloupků, rámových konstrukcí a dalších svařovaných prvků, které zajišťují stabilitu a bezpečnost budov. S důrazem na preciznost a bezpečnost jsme vaším spolehlivým partnerem pro kovové výrobky, které vám pomáhají dosáhnout excelentních svařovacích výsledků.</p>

@@ -10,7 +10,7 @@ const Home = () => {
     <div name='home' className='w-full h-screen'>
     <div className='max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4'>
         <div className='flex flex-col h-full justify-center'>
-          <h3 className='text-5xl max-md:text-3xl md:text-6xl font-bold'>
+          <h3 className='text-5xl font-bold'>
             <span className='border-t-2 border-[#ea5b0c]'>D</span>OMÁCNOST<span className='border-b-2 border-[#ea5b0c]'>I</span>
           </h3>
           <p className='text-xl text-justify pb-6 mt-2'>Oskon s.r.o je vaším spolehlivým partnerem pro kvalitní kovové výrobky pro domácnosti. Naše široká nabídka zahrnuje elegantní zábradlí, designové ploty, praktické terasy a exkluzivní pergoly, které vám pomohou vytvořit dokonalé prostředí ve vašem domě. S důrazem na kvalitu a spolehlivost jsme vaším partnerem pro kovové výrobky, které zdůrazní krásu vašeho domova.</p>
